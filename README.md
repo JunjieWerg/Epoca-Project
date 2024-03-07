@@ -32,7 +32,7 @@ The team worked through Business Understanding, Data Understanding, Data Prepera
   - Removal of hashtag descriptions with numerical values and strange symbols.
 - Outcome: Final output for Cosine Similarity and K-Nearest Neighbors. Resulted in 226,523 observations.
 
-(https://github.com/JunjieWerg/Assets/blob/main/Model%20Evolution%20Graphic.png)
+![Model Evolution Graphic](https://github.com/JunjieWerg/Assets/blob/main/Model%20Evolution%20Graphic.png)
 
 ## Decision Making
 
@@ -44,15 +44,19 @@ Key decisions on important variables:
 ## Visualizations
 
 ### Distribution of Word Counts in Descriptions
-(https://github.com/JunjieWerg/Assets/blob/main/Distribution%20of%20Word%20Counts.png)
+
+![Distribution of Word Counts in Descriptions](https://github.com/JunjieWerg/Assets/blob/main/Distribution%20of%20Word%20Counts.png)
 
 ### Distribution of Delta Dates
- (https://github.com/JunjieWerg/Assets/blob/main/Distribution%20of%20Delta%20Dates.jpg)
+
+![Distribution of Delta Dates](https://github.com/JunjieWerg/Assets/blob/main/Distribution%20of%20Delta%20Dates.jpg)
 
 ## Y Variable Development
+
 - the difference between the date a hashtag is trending on TikTok and the date the similar hashtag (category) is trending on Amazon.
 
-https://github.com/JunjieWerg/Assets/blob/main/Y%20Variable%20Development.png
+![Y Variable Development](https://github.com/JunjieWerg/Assets/blob/main/Y%20Variable%20Development.png)
+
 
 ## Data Transformations
 
