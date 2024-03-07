@@ -21,9 +21,9 @@ The team worked through Business Understanding, Data Understanding, Data Prepera
 ### Version 2:
 - Focus: 1000 hashtag vs. 800,000 search term.
 - TikTok dataset:
-  - `Nsw_TikTok`: 'hashtag', 'description', 'date_collected', 'nostopwords_description'.
+  - `Nsw_TikTok`: `hashtag`, `description`, `date_collected`, `nostopwords_description`.
 - Amazon dataset:
-  - `Nsw_Amazon`: 'Search Term', 'nostopwords_Search Term', 'Reporting Date'.
+  - `Nsw_Amazon`: `Search Term`, `nostopwords_Search Term`, `Reporting Date`.
 - Method: Sample output for Cosine Similarity and K-Nearest Neighbors.
 
 ### Version 3:
