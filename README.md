@@ -1,4 +1,4 @@
-# Epoca - Trend Prediction on Amazon from TikTok Hashtag Dynamics
+# Epoca - Amazon-Trend-Prediction-from-TikTok-Hashtags
 
 ### Team Leader: Junjie Wu
 ### Team Members: Shiza Jamil, Romie Jean, Nick Albury
