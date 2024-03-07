@@ -20,9 +20,10 @@ The team worked through Business Understanding, Data Understanding, Data Prepera
 
 ### Version 2:
 - Focus: 1000 hashtag vs. 800,000 search term.
-- Features:
-  - `Nsw_TikTok`: hashtag, description, date_collected, nostopwords_description.
-  - `Nsw_Amazon`: Search Term, nostopwords_Search Term, Reporting Date.
+- TikTok dataset:
+  - `Nsw_TikTok`: 'hashtag', 'description', 'date_collected', 'nostopwords_description'.
+- Amazon dataset:
+  - `Nsw_Amazon`: 'Search Term', 'nostopwords_Search Term', 'Reporting Date'.
 - Method: Sample output for Cosine Similarity and K-Nearest Neighbors.
 
 ### Version 3:
@@ -75,7 +76,7 @@ Key decisions on important variables:
 - Accuracy rates for different models.
 
 ## Final Model Justification
-The team will work on this part on April 2024.
+The team will work on this part on April 2024. We may try run the model again using without stop words datasets and figure out whether the accuracy of the model will improve or not.
 
 ## Future Directions
 
