@@ -57,8 +57,8 @@ Key decisions on important variables:
 
 ### Distribution of Delta Dates
 
-![Distribution of Delta Dates](https://github.com/JunjieWerg/Assets/blob/main/cos.png)
-![Distribution of Delta Dates](https://github.com/JunjieWerg/Assets/blob/main/knn.png)
+![Distribution of Delta Dates](https://github.com/JunjieWerg/Assets/blob/main/Distribution%20of%20Delta%20Dates.jpg)
+
 
 ## Y Variable Development
 
