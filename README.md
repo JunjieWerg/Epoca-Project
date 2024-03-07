@@ -25,7 +25,7 @@
   - Removal of hashtag descriptions with numerical values and strange symbols.
 - Outcome: Final output for Cosine Similarity and K-Nearest Neighbors. Resulted in 226,523 observations.
 
-![Model Evolution Graphic](link-to-your-graphic.png)
+![Model Evolution Graphic] (https://github.com/JunjieWerg/Assets/blob/main/Model%20Evolution%20Graphic.png)
 
 ## Decision Making
 
@@ -37,14 +37,14 @@ Key decisions on important variables:
 ## Visualizations
 
 ### Distribution of Word Counts in Descriptions
-`[Insert Visualization Graphic Here]`
+[`[Insert Visualization Graphic Here]`](https://github.com/JunjieWerg/Assets/blob/main/Distribution%20of%20Word%20Counts.png)
 
 ### Distribution of Delta Dates
-`[Insert Visualization Graphic Here]`
+![Distribution of Delta Dates Graphic] (https://github.com/JunjieWerg/Assets/blob/main/Distribution%20of%20Delta%20Dates.jpg)
 
 ## Y Variable Development
 
-[Describe the process of creating or modifying the Y variable in detail, including any exact calculations.]
+https://github.com/JunjieWerg/Assets/blob/main/Y%20Variable%20Development.png
 
 ## Data Transformations
 
