@@ -12,30 +12,37 @@
 ## Project Objective
 The team worked through Business Understanding, Data Understanding, Data Preperation, Modeling, Evaluation, and Deployment (CRISP-ML Framework)
 
-## Model History
+## Data Preperation
+
+
+## Data Preperation & Model History
 
 ### Version 1:
 - Focus: 1000 hashtag vs. 1000 search term.
+- Data Preperation: Merge multiple csv files into two `superfiles` to optimize the performance especially with huge datasets.
+  - TikTok super parquet file with `800,000` observations
+  - Amazon super parquet file with `800,000` observations
 - Method: Testing feasibility for multiple Fuzzy Matching methods, Word2Vec, and Doc2Vec.
 
 ### Version 2:
 - Focus: 1000 hashtag vs. 800,000 search term.
-- TikTok dataset:
-  - `Nsw_TikTok`: `hashtag`, `description`, `date_collected`, `nostopwords_description`.
-- Amazon dataset:
-  - `Nsw_Amazon`: `Search Term`, `nostopwords_Search Term`, `Reporting Date`.
+- Data Prepration: Drop duplicates by only keep the first date each `hashtag/search term` was collected in record and keep those columns models need for comparison.
+  - TikTok dataset:
+    - `Nsw_TikTok`: `hashtag`, `description`, `date_collected`, `nostopwords_description`.
+  - Amazon dataset:
+    - `Nsw_Amazon`: `Search Term`, `nostopwords_Search Term`, `Reporting Date`.
 - Method: Sample output for Cosine Similarity and K-Nearest Neighbors.
 
 ### Version 3:
 - Focus: 220,000 hashtags vs. 800,000 search term.
-- Improvements: 
+- Data Preparation for improve the data processing speed: 
   - Format changes for `Reporting Date` and `date_collected` to `%m/%d/%y`.
-  - Removal of hashtag descriptions with numerical values and strange symbols.
-- Outcome: Final output for Cosine Similarity and K-Nearest Neighbors. Resulted in 226,523 observations.
+  - Remove numerical values like `00_12 ounce`and strange symbols like `⬜/emojis/ Arabic` in `hashtag descriptions`.
+- Outcome: Final output for Cosine Similarity and K-Nearest Neighbors. The combined dataframe resulted in `226,523` observations.
 
 ![Model Evolution Graphic](https://github.com/JunjieWerg/Assets/blob/main/Model%20Evolution%20Graphic.png)
 
-## Decision Making
+## Key Decision Making
 
 Key decisions on important variables:
 - Used `description` for TikTok instead of `Hashtag`.
