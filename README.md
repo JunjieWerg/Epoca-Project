@@ -10,7 +10,7 @@
 - The sponsor mentioned our team may need to combine the time-series data from both Amazon and TikTok to answer how soon a product that becomes popular on TikTok will have an effect on Amazon searches and/or sales.
 
 ## Project Objective
-- The team will work through Business Understanding, Data Understanding, Data Preperation, Modeling, Evaluation, and Deployment (CRISP-ML Framework)
+The team worked through Business Understanding, Data Understanding, Data Preperation, Modeling, Evaluation, and Deployment (CRISP-ML Framework)
 
 ## Model History
 
