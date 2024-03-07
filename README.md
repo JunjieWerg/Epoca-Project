@@ -62,7 +62,7 @@ Key decisions on important variables:
 
 ## Y Variable Development
 
-- the difference between the date a hashtag is trending on TikTok and the date the similar hashtag (category) is trending on Amazon.
+- The difference between the date a hashtag is trending on TikTok and the date the similar hashtag (category) is trending on Amazon.
 
 ![Y Variable Development](https://github.com/JunjieWerg/Assets/blob/main/Y%20Variable%20Development.png)
 
