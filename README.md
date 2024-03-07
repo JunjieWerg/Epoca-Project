@@ -5,6 +5,13 @@
 ### Instructors: Dr. Jim Hoover, Taikgun Song
 ### Sponsor: Roberto Ortiz
 
+## Business Objective
+- To detect a relationship between TikTok trends and Amazon best-seller list and discover the time it takes for a trending product to end up on the Amazon best-seller list.
+- The sponsor mentioned our team may need to combine the time-series data from both Amazon and TikTok to answer how soon a product that becomes popular on TikTok will have an effect on Amazon searches and/or sales.
+
+## Project Objective
+- The team will work through Business Understanding, Data Understanding, Data Preperation, Modeling, Evaluation, and Deployment (CRISP-ML Framework)
+
 ## Model History
 
 ### Version 1:
@@ -25,7 +32,7 @@
   - Removal of hashtag descriptions with numerical values and strange symbols.
 - Outcome: Final output for Cosine Similarity and K-Nearest Neighbors. Resulted in 226,523 observations.
 
-![Model Evolution Graphic] (https://github.com/JunjieWerg/Assets/blob/main/Model%20Evolution%20Graphic.png)
+(https://github.com/JunjieWerg/Assets/blob/main/Model%20Evolution%20Graphic.png)
 
 ## Decision Making
 
@@ -37,12 +44,13 @@ Key decisions on important variables:
 ## Visualizations
 
 ### Distribution of Word Counts in Descriptions
-[`[Insert Visualization Graphic Here]`](https://github.com/JunjieWerg/Assets/blob/main/Distribution%20of%20Word%20Counts.png)
+(https://github.com/JunjieWerg/Assets/blob/main/Distribution%20of%20Word%20Counts.png)
 
 ### Distribution of Delta Dates
-![Distribution of Delta Dates Graphic] (https://github.com/JunjieWerg/Assets/blob/main/Distribution%20of%20Delta%20Dates.jpg)
+ (https://github.com/JunjieWerg/Assets/blob/main/Distribution%20of%20Delta%20Dates.jpg)
 
 ## Y Variable Development
+- the difference between the date a hashtag is trending on TikTok and the date the similar hashtag (category) is trending on Amazon.
 
 https://github.com/JunjieWerg/Assets/blob/main/Y%20Variable%20Development.png
 
@@ -63,7 +71,6 @@ https://github.com/JunjieWerg/Assets/blob/main/Y%20Variable%20Development.png
 
 ## Final Model Justification
 
-[Explain the reasons for choosing the final model, including the business value and potential predictive capabilities.]
 
 ## Future Directions
 
