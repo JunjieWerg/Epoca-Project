@@ -1,1 +1,70 @@
-# Epoca-Project
+# Epoca - Trend Prediction on Amazon from TikTok Hashtag Dynamics
+
+### Team Leader: Junjie Wu
+### Team Members: Shiza Jamil, Romie Jean, Nick Albury
+### Instructors: Dr. Jim Hoover, Taikgun Song
+### Sponsor: Roberto Ortiz
+
+## Model History
+
+### Version 1:
+- Focus: 1000 hashtag vs. 1000 search term.
+- Method: Testing feasibility for multiple Fuzzy Matching methods, Word2Vec, and Doc2Vec.
+
+### Version 2:
+- Focus: 1000 hashtag vs. 800,000 search term.
+- Features:
+  - `Nsw_TikTok`: hashtag, description, date_collected, nostopwords_description.
+  - `Nsw_Amazon`: Search Term, nostopwords_Search Term, Reporting Date.
+- Method: Sample output for Cosine Similarity and K-Nearest Neighbors.
+
+### Version 3:
+- Focus: 220,000 hashtags vs. 800,000 search term.
+- Improvements: 
+  - Format changes for `Reporting Date` and `date_collected` to `%m/%d/%y`.
+  - Removal of hashtag descriptions with numerical values and strange symbols.
+- Outcome: Final output for Cosine Similarity and K-Nearest Neighbors. Resulted in 226,523 observations.
+
+![Model Evolution Graphic](link-to-your-graphic.png)
+
+## Decision Making
+
+Key decisions on important variables:
+- Used `description` for TikTok instead of `Hashtag`.
+- Used `search term` for Amazon instead of `Product Title`.
+- Created `Delta Date` by subtracting `date_collected` from TikTok from the `reporting date` from Amazon.
+
+## Visualizations
+
+### Distribution of Word Counts in Descriptions
+`[Insert Visualization Graphic Here]`
+
+### Distribution of Delta Dates
+`[Insert Visualization Graphic Here]`
+
+## Y Variable Development
+
+[Describe the process of creating or modifying the Y variable in detail, including any exact calculations.]
+
+## Data Transformations
+
+- One-hot encoding of the "Model" column.
+- Min-max scaling of relevance scores.
+- Calculation of time delta field.
+- Calculation of accuracy percentages.
+
+## Model Assessment Metrics
+
+- Significance of hashtags/descriptions.
+- Quality of matches for k-NN and Cosine Similarity.
+- Correspondence to kitchen items category.
+- Human assessment validations.
+- Accuracy rates for different models.
+
+## Final Model Justification
+
+[Explain the reasons for choosing the final model, including the business value and potential predictive capabilities.]
+
+## Future Directions
+
+- Exploration of OpenAI word-embedding for fuzzy matching.
