@@ -19,8 +19,8 @@ The team worked through Business Understanding, Data Understanding, Data Prepera
 ### Version 1:
 - Focus: 1000 hashtag vs. 1000 search term.
 - Data Preperation: Merge multiple csv files into two `superfiles` to optimize the performance especially with huge datasets.
-  - TikTok super parquet file with `800,000` observations
-  - Amazon super parquet file with `800,000` observations
+  - TikTok super parquet file with `2,300,000` observations
+  - Amazon super parquet file with `1,400,000` observations
 - Method: Testing feasibility for multiple Fuzzy Matching methods, Word2Vec, and Doc2Vec.
 
 ### Version 2:
