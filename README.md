@@ -12,7 +12,6 @@
 ## Project Objective
 The team worked through Business Understanding, Data Understanding, Data Preperation, Modeling, Evaluation, and Deployment (CRISP-ML Framework)
 
-## Data Preperation
 
 
 ## Data Preperation & Model History
